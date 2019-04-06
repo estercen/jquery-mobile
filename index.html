@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Clase</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="X-AU-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.css">
+<script src="jquery-2.2.4.js"></script>
+<script src="code.js"></script>
+<script src="jquery.mobile-1.4.5.js"></script>
+
+</head>
+
+	<div data-role="page" data-theme="b" id="main">
+		<div data-role="panel" id="mipanel">
+			A ver cómo sale esto.
+		</div>
+		<div data-role="header">
+			<a href="#mipanel" class="ui-btn">Mi panel</a>
+			<h1>Dialog máximo</h1>
+		</div>
+
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#main" data-icon="grid"> main </a></li>
+				<li><a href="#info" data-icon="star"> info </a></li>
+				<li><a href="#modal" data-icon="gear"> modal </a></li>
+			</ul>
+		</div>
+
+		<div role="main"  class="ui-content">
+	<div id="orient"></div>
+	<dv data-role="collapsible" id="menu"> 
+		<h2>Menú</h2> 
+		<ul id="menu" data-role="listview" data-theme="a" data-inset="true" data-filter="true" data-autodividers="true">
+			<li data-role="list-divider">HTML</li>
+			<li><a href="#">HTML5</a></li>
+			<li data-role="list-divider">CSS</li>
+			<li><a href="#">CSS3</a></li>
+			<li data-role="list-divider">JavaScript</li>
+			<li><a href="#">JS</a></li>
+			<li><a href="#">JQuery UI</a></li>
+			<li><a href="#">JQuery Mobile</a></li>
+		</ul>
+	</div>
+	
+
+			<!--<a href="dialog.html" class="ui-btn" data-transition="flip"> Dialog</a>
+
+			<a href="#info" class="ui-btn" data-transition="pop"> Info</a>
+		</div>-->
+
+		<div data-role="footer" data-position="fixed">
+			<h3>Footer</h3>
+		</div>
+
+	</div>
+	<div data-role="page" id="info" data-dialog="true">
+		<div data-role="header">
+			<h1>Main</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+		</div>
+
+
+		<div data-role="footer" data-position="fixed">
+			<h3>Footer</h3>
+		</div>
+	</div>
+
+
+	<!-- <a href="ext.html" class="ui-btn"> Info ext. </a> para ir a otra pagina-->
+<body>
+	
+
+</body>
+</html>
